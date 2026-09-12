@@ -1,6 +1,6 @@
 # 1-DOF-Propeller-Thrust-Balance-System
 
-A 1-Degree-of-Freedom (1-DOF) closed-loop thrust balance arm controlled by a Brushless DC (BLDC) motor and an AS5600 12-bit magnetic rotary encoder, powered by an Arduino.
+A 1-Degree-of-Freedom (1-DOF) closed-loop thrust balance arm controlled by a Brushless DC motor and an AS5600 12-bit magnetic rotary encoder, powered by an Arduino.
 
 ---
 
@@ -34,7 +34,7 @@ This project demonstrates closed-loop attitude control of a thrust-balanced leve
 
 ## Pinout Configuration
 
-| Peripheral | Arduino Pin | Description |
+| Peripheral | Arduino Pin 
 | **ESC Signal** | D6 
 | **AS5600 SDA** | A4 
 | **AS5600 SCL** | A5 
@@ -48,7 +48,7 @@ This project demonstrates closed-loop attitude control of a thrust-balanced leve
 
 ## Mechanical & CAD Files
 The complete physical assembly files are provided under the `/cad` directory:
-- **`cad/stl/`**: Ready-to-print meshes for 3D printers (PLA recommended, %10-%15 infill).
+- **`cad/stl/`**: Ready-to-print meshes for 3D printers (PLA or PETG recommended, %10-%15 infill).
 - **`cad/step/`**: Universal CAD files for modification in SolidWorks.
 
 ---
