@@ -1,3 +1,6 @@
+![System Setup](assets/full.jpeg)
+![System Setup](assets/full2.jpeg)
+
 # 1-DOF-Propeller-Thrust-Balance-System
 
 A 1-Degree-of-Freedom (1-DOF) closed-loop thrust balance arm controlled by a Brushless DC motor and an AS5600 12-bit magnetic rotary encoder, powered by an Arduino.
@@ -30,6 +33,7 @@ This project demonstrates closed-loop attitude control of a thrust-balanced leve
 | **Interface** | 1602 Character LCD | Live telemetry display and tuning interface |
 | **Input** | 2-Axis Analog Joystick Module | Menu navigation and runtime parameter updates |
 
+![Hardware](assets/electronics.jpeg)
 ---
 
 ## Pinout Configuration
@@ -67,3 +71,8 @@ The complete physical assembly files are provided under the `/cad` directory:
 6. Upload the `.ino` sketch to your Arduino board.
 7. Wait 2 seconds during startup for the ESC arming sequence.
 8. Use the joystick to navigate the LCD menu, adjust $K_p, K_i, K_d$ on the fly, and command target angles.
+
+
+![LiPo Photo](assets/lipo.jpeg)
+![ESC Photo](assets/esc.jpeg)
+![AS5600 PHOTO](assets/as5600.jpeg)
