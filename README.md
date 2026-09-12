@@ -15,7 +15,7 @@ This project demonstrates closed-loop attitude control of a thrust-balanced leve
 - **Integral Anti-Windup:** Prevents integrator saturation and aggressive overshoot using strict clamping boundaries ($\pm750\,\mu s$).
 - **Base Actuator Offset:** Actuator output is mapped cleanly onto standard ESC pulse widths ($1000 - 2000\,\mu s$).
 - **Live Telemetry & Interactive Menu:** Real-time angle monitoring and on-the-fly gain scheduling via a 1602 LCD and analog joystick.
-- **Mechanical CAD Package:** Complete 3D printable files (`.stl`) and universal exchange models (`.step`) for the chassis, pivot bearings, and motor lever arm.
+- **Mechanical CAD Package:** Complete 3D printable files (`.stl`) and universal exchange models (`.step`) for the chassis, pivot bearings, M3 thread, and motor lever arm.
 
 ---
 
@@ -23,11 +23,11 @@ This project demonstrates closed-loop attitude control of a thrust-balanced leve
 
 | Component | Specification | Function |
 | :--- | :--- | :--- |
-| **Microcontroller** | Arduino Uno / Nano | Main control loop, sensing, and ESC PPM generation |
-| **Feedback Sensor** | AS5600 12-bit Rotary Encoder | Contactless pivot angle measurement via I2C |
-| **Actuator** | Brushless Motor (BLDC) + Propeller | Dynamic thrust generation |
-| **ESC** | 30A Brushless ESC with 5V BEC | Motor driving & regulated 5V system logic power |
-| **Interface** | 1602 Character LCD (Parallel) | Live telemetry display and tuning interface |
+| **Microcontroller** | Arduino Uno | Main control loop, sensing, and ESC PPM generation |
+| **Feedback Sensor** | AS5600 12-bit Rotary Encoder | Contactless angle measurement via I2C |
+| **Actuator** | Brushless Motor + Propeller | Dynamic thrust generation |
+| **ESC** | 30A Brushless ESC | Motor driving |
+| **Interface** | 1602 Character LCD | Live telemetry display and tuning interface |
 | **Input** | 2-Axis Analog Joystick Module | Menu navigation and runtime parameter updates |
 
 ---
