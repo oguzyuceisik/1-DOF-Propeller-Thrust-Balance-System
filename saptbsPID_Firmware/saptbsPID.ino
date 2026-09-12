@@ -25,7 +25,7 @@ int allow = 1;
 int prev_allow = -600;
 
 float kp = 6.f;
-float kd = 0.6f;
+float kd = 3.0f;
 float ki = 1.f;
 
 float liveAngle = 0.0f;
