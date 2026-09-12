@@ -57,6 +57,13 @@ The complete physical assembly files are provided under the `/cad` directory:
 
 ---
 
+## CAD PREVIEW
+
+![CAD Photo](assets/cad1.png)
+![CAD Photo](assets/cadw.png)
+
+---
+
 ## Getting Started
 
 1. Clone or download this repository.
