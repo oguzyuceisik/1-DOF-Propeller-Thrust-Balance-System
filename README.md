@@ -79,6 +79,8 @@ The complete physical assembly files are provided under the `/cad` directory:
 7. Wait 2 seconds during startup for the ESC arming sequence.
 8. Use the joystick to navigate the LCD menu, adjust $K_p, K_i, K_d$ on the fly, and command target angles.
 
+---
+
 ## MEDIA:
 [![Demo Video](https://img.youtube.com/vi/CsmWMHaqUeA/hqdefault.jpg)](https://www.youtube.com/watch?v=CsmWMHaqUeA)
 
